@@ -4,7 +4,7 @@
   "description": "A lightweight starter kit for building a Node-based API server",
   "main": "server.js",
   "scripts": {
-    "build": "node build",
+    "build": "babel routes -d lib",
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,9 +30,14 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "graphql": "^16.6.0",
-    "graphql-request": "^3.4.0"
+    "graphql-request": "^3.4.0",
+    "node": "^18.13.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
     "nodemon": "2.0.12"
   }
 }

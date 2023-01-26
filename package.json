@@ -4,7 +4,6 @@
   "description": "A lightweight starter kit for building a Node-based API server",
   "main": "server.js",
   "scripts": {
-    "build": "echo \"Error: no test specified\"",
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

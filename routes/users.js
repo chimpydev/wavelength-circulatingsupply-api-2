@@ -50,7 +50,7 @@ const userRoutes = async (app, fs) => {
     };
 
     // READ
-    app.get('/users', (req, res) => {
+    app.get('/circulatingSupply', (req, res) => {
         console.log("FRANCISCO: "+JSON.stringify( dataPath))
        /* fs.readFile(JSON.stringify(dataPath), 'utf8', (err, data) => {
             if (err) {
